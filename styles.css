@@ -3,9 +3,34 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    display:grid;
 }
 header {
     padding: 10px 0;
+    text-align: center;
+    text-decoration: underline;
+}
+nav {
+    padding: 10px;
+    text-align: center;
+    display: inline-block;   
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+section {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.Larry, .Pat {
+    display: flex;
     text-align: center;
 }

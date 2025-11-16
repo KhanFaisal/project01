@@ -42,3 +42,14 @@ h3 {
 #larry, #christy, #pat, #ari {
     text-align: center;
 }
+.Democratic {
+    color: #0066ff;
+}
+.Republican {
+    color: #ff0000;
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
